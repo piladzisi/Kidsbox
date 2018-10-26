@@ -79,10 +79,16 @@ a:active {
 
 /* Main Styles --------------------- */
 .aboutme{
-    text-align: center;
-    font-size: 1.25em; /* 20px/16px */
+  text-align: center;
+  font-size: 1.25em; /* 20px/16px */
   line-height: 1.6;  
-}
+  width:60%;
+  margin:auto;
+ }
+ 
+/*.aboutme p{
+  display: inline-block;
+}*/
 .main-nav{
   padding-top: 23px;
 }
@@ -128,7 +134,12 @@ a:active {
     clear: both;
     display: table;
 }
+.video{
+  width: 60%;
+}
+iframe{
 
+}
 footer{
 
   height: 100px;
